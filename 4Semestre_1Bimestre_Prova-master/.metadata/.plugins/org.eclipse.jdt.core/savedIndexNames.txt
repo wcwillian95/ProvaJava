@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\ricar\Desktop\Trabalho facul\4_semestre\ProjetosPrincipais\ProgProjeto\.metadata\.plugins\org.eclipse.jdt.core
+3223033147.index
+1524487255.index
+1789090492.index
+2975139985.index
+2115700418.index
+4235509034.index
+356000150.index
+2025289538.index
+4234080270.index
+1983145798.index
+38675814.index
+1973443539.index
+3965066115.index
+597514262.index
+115461101.index
+1340754292.index
+1551478744.index
+595774291.index
+2432615257.index
+3903750301.index

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="459.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.visitante.ControllerVisitante">
+   <children>
+      <Button fx:id="BTNSalvar" layoutX="218.0" layoutY="140.0" mnemonicParsing="false" onAction="#Salvar" text="SALVAR" />
+      <Button fx:id="BTNEditar" layoutX="318.0" layoutY="140.0" mnemonicParsing="false" onAction="#Editar" text="EDITAR" />
+      <Button fx:id="BTNExcluir" layoutX="419.0" layoutY="140.0" mnemonicParsing="false" onAction="#Excluir" text="EXCLUIR" />
+      <Label layoutX="26.0" layoutY="54.0" text="Nome">
+         <font>
+            <Font name="Georgia Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="86.0" text="RG">
+         <font>
+            <Font name="Georgia Pro Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="53.0" text="CPF">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="85.0" text="Telefone">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="479.0" layoutY="57.0" text="E-mail">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtNome" layoutX="66.0" layoutY="50.0" />
+      <Label layoutX="464.0" layoutY="92.0" text="Data Visita">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtCPF" layoutX="299.0" layoutY="53.0" />
+      <TextField fx:id="TxtTelefone" layoutX="299.0" layoutY="85.0" />
+      <TextField fx:id="TxtEmail" layoutX="540.0" layoutY="53.0" />
+      <ScrollPane layoutX="-2.0" layoutY="242.0" prefHeight="150.0" prefWidth="757.0">
+         <content>
+            <TextArea fx:id="textAreaLista" prefHeight="148.0" prefWidth="762.0" />
+         </content>
+      </ScrollPane>
+      <TextField fx:id="TXId" layoutX="408.0" layoutY="206.0" prefHeight="25.0" prefWidth="81.0" />
+      <Label layoutX="466.0" layoutY="42.0" text="ID" visible="false">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelid" layoutX="42.0" layoutY="30.0" text="ID" visible="false" />
+      <Label fx:id="LabelLabel" layoutX="84.0" layoutY="30.0" visible="false" />
+      <Button fx:id="BTNBuscarID" layoutX="502.0" layoutY="206.0" mnemonicParsing="false" onAction="#buscarID" text="Pesquisar" />
+      <Label layoutX="219.0" layoutY="7.0" text="Cadastro Visitantes" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia" size="34.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePickerVisita" layoutX="541.0" layoutY="88.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="TxtRG" layoutX="66.0" layoutY="82.0" />
+      <Label layoutX="138.0" layoutY="211.0" text="Para alterar um cadastro digite o ID:">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
